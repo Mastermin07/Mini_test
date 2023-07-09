@@ -1,0 +1,54 @@
+body{
+    box-shadow: 0px 0px 0px 1000px #202b44;;
+    font-family: sans-serif;
+    border-radius: 1%;
+    margin: 90px 90px ;
+    background-color: rgb(255, 253, 253);
+
+}
+
+
+
+/* ****************************NAVBAR********************** */
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 8px;
+}
+
+.bar_logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.bar_fenetre{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    font-size: 0.9em;
+    color: gray;
+    justify-content: space-around;
+
+}
+
+.bar_fenetre .lf a{
+    color: black;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.bar_profile img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/* ***************************************CORPS*********************************************** */
+.corps{
+    padding: 100px 137px 100px 137px;
+}
